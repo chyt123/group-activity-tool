@@ -1,0 +1,28 @@
+{
+  "name": "quick-response",
+  "version": "1.0.0",
+  "description": "a tool for group activities",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chyt123/group-activity-tool.git"
+  },
+  "keywords": [
+    "games"
+  ],
+  "author": "Florrie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chyt123/group-activity-tool/issues"
+  },
+  "homepage": "https://github.com/chyt123/group-activity-tool#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3"
+  }
+}

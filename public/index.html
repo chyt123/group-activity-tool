@@ -1,0 +1,34 @@
+<head>
+  <title>抢答器 v0.0.1</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <link rel="stylesheet" href="./css/bootstrap.min.css"></link>
+  <link rel="stylesheet" href="./css/main.css"></link>
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
+</head>
+<body class="container">
+  <h2>
+    抢答器 v0.0.1
+  </h2>
+
+  <br/>
+
+  <div class="input-group">
+    <span class="input-group-addon" id="username">Your Name</span>
+    <input type="text" class="form-control" placeholder="Username" aria-describedby="username" id="username-text">
+    <span class="input-group-btn">
+      <button class="btn btn-success" type="button" onclick="join()">Join!</button>
+    </span>
+  </div>
+  <h3 class="status-text" id="connection-status">&nbsp;</h3>
+  
+  <br/>
+  <br/>
+
+  <div id="circle" class="text-center" onclick="press()">
+    Press Now!
+  </div>
+
+
+</body>
